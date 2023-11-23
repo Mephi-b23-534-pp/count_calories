@@ -24,12 +24,7 @@ def get_food_calories(food_name):
 
     return None
 
-
-# Пример использования
-food_name_russian = "банан"
-calories_russian = get_food_calories(food_name_russian)
-
-if calories_russian is not None:
-    print(f"Калорийность {food_name_russian}: {calories_russian}")
-else:
-    print(f"Информация о калорийности {food_name_russian} не найдена.")
+#if calories_russian is not None:
+#   print(f"Калорийность {food_name_russian}: {calories_russian}")
+#else:
+#    print(f"Информация о калорийности {food_name_russian} не найдена.")
